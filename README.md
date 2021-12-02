@@ -17,3 +17,5 @@ npm install
 npm run electron:serve
 npm run electron:build
 ```
+### 常见问题
+- [Electron-Builder打包时报错could not find: “C:\Users\XX\AppData\Local\Temp\t-bDWVX6\0-messages.nsh“](https://blog.csdn.net/kyq0417/article/details/111266776)

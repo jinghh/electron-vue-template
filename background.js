@@ -62,10 +62,6 @@ app.on('ready', async () => {
     //   console.error('Vue Devtools failed to install:', e.toString())
     // }
     try {
-      await installExtension({
-        id: 'ljjemllljcmogpfapbkkighbhhppjdbg', //Vue Devtools beta
-        electron: '>=1.2.1'
-      })
     } catch (e) {
       console.error('Vue Devtools failed to install:', e.toString())
     }
